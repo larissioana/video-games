@@ -1,0 +1,100 @@
+.loading 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-games-container
+{
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    margin-top: 1rem;
+    transition: opacity .4s ease-in;
+}
+
+.video-games-title
+{
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.background-opacity
+{
+    opacity: .2;
+}
+
+.games-image {
+    cursor: pointer;
+    width: 300px;
+    height: 330px;
+    background: rgb(230, 228, 228);
+    box-shadow: 2px 4px 5px rgb(196, 193, 193);
+    border-radius: 1rem;
+}
+
+.games 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+.release-date,
+.genre-name,
+.title
+{
+    padding: .2rem;
+}
+
+.title 
+{
+    font-size: clamp(1.1rem, 2vw, 1.2rem);
+}
+
+.genre-name,
+.release-date
+{
+    color: rgb(82, 78, 78);
+}
+.genres-card
+{
+    display: flex;
+    align-items: center;
+}
+
+.genres-card p 
+{
+    font-weight: bold;
+}
+
+.games-image img 
+{
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+    object-position: top;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+@media screen and (max-width: 500px)
+{
+    .games-image
+    {
+        width: 300px;
+        height: 330px;
+    }
+
+    .games-image img 
+    {
+        width: 300px;
+        height: 200px;
+    }
+}

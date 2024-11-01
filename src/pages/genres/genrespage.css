@@ -1,0 +1,53 @@
+.genres-container
+{
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.genres-games
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.genres-details 
+{
+    padding-top: 1rem;
+}
+
+.genres-description h3
+{
+   font-size: clamp(1.2rem, 2vw, 2rem);
+   padding-bottom: 1rem;
+}
+
+.genres-description p
+{
+   font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+.genres-buttons 
+{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    gap: 2rem;
+}
+
+.genre-button {
+    padding: 0.5rem 0rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.genre-button.active {
+    border-bottom: 2px solid #eb667e;
+}

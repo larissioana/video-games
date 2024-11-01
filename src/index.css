@@ -1,0 +1,14 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  overflow-x: hidden;
+  background: #e4e5e7;
+  color: #151414;
+  font-family: "Oswald", sans-serif;
+}
